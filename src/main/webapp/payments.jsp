@@ -22,11 +22,11 @@
 	 <br>Customer name: 
 	 <input id="paymentName" name="paymentName" type="text" 
 	 class="form-control form-control-sm">
-	 <br> Pay Value: 
+	 <br> Pay Value(Rs): 
 	 <input id="paymentPrice" name="paymentPrice" type="text" 
 	 class="form-control form-control-sm">
 	 <br> Contact Number : 
-	 <input id="paymentContact" name="paymentContact" type="text" 
+	 <input id="paymentContact" name="paymentContact" Placeholder="format (xx xxx xxxx)"  
 	 class="form-control form-control-sm">
 	 <br>
 	 <input id="btnSave" name="btnSave" type="button" value="Save" 
