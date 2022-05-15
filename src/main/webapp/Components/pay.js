@@ -1,22 +1,27 @@
 // CLIENT-MODEL================================================================
-function validatePaymentForm()
-{
-// CODE
-if ($("#paymentCode").val().trim() == "")
-{
-return "Insert Bill Account Number.";
-}
+
+	function validatePaymentForm()
+	{
+		
+// Bill Number
+		if ($("#paymentCode").val().trim() == "")
+	{
+		return "Insert Bill Account Number.";
+		
+	}
+	
 // NAME
+
 if ($("#paymentName").val().trim() == "")
 {
 return "Insert customer Name.";
 }
-// PRICE-------------------------------
+// Value-------------------------------
 if ($("#paymentPrice").val().trim() == "")
 {
 return "Insert Pay Vaule.";
 }
-// DESCRIPTION------------------------
+// Contact------------------------
 if ($("#paymentContact").val().trim() == "")
 {
 return "Insert Contact Number.";
@@ -72,11 +77,14 @@ $("#paymentCode").val($(this).closest("tr").find('td:eq(0)').text());
 $("#paymentName").val($(this).closest("tr").find('td:eq(1)').text());
 $("#paymentPrice").val($(this).closest("tr").find('td:eq(2)').text());
 $("#paymentContact").val($(this).closest("tr").find('td:eq(3)').text());
+
 });
+
 // CLIENT-MODEL================================================================
+
 function validatePaymentForm()
 {
-// CODE
+// Bill Number
 if ($("#paymentCode").val().trim() == "")
 {
 return "Insert Bill Account Number.";
@@ -87,12 +95,12 @@ if ($("#paymentName").val().trim() == "")
 return "Insert customer Name.";
 }
 
-// PRICE-------------------------------
+// Value-------------------------------
 if ($("#paymentPrice").val().trim() == "")
 {
 return "Insert pay Value.";
 }
-// DESCRIPTION------------------------
+// Contact Number------------------------
 if ($("#paymentContact").val().trim() == "")
 {
 return "Insert contact Number.";
