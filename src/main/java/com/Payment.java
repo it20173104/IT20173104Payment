@@ -16,7 +16,7 @@ private Connection connect()
 			Class.forName("com.mysql.jdbc.Driver"); 
 			con = 
 					DriverManager.getConnection( 
-							"jdbc:mysql://127.0.0.1:3306/items", "root", "prasan123"); 
+							"jdbc:mysql://127.0.0.1:3306/paymanage", "root", "prasan123"); 
 		} 
 		catch (Exception e) 
 		{ 
